@@ -57,6 +57,10 @@ submit.addEventListener("click", () => {
 })
 ```
 
+## Customize
+
+Please fork one!
+
 ## License
 
 MIT License
