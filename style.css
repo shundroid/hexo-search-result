@@ -5,6 +5,9 @@
   float: left;
   margin-right: 10px;
 }
+.search-result-entry {
+  clear: left;
+}
 @media screen and (max-width: 768px) {
   .search-result-thumbnail {
     float: none;
