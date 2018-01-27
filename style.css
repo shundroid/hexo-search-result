@@ -1,0 +1,10 @@
+.search-result-thumbnail img {
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  .search-result-thumbnail img {
+    float: none;
+  }
+}
