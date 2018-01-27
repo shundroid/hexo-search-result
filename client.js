@@ -49,7 +49,7 @@
         innerHTML += '<div class="search-result-thumbnail">' + thumbnail[0] + '</div>'
       }
       innerHTML += content.replace(/<[^>]*>/g, '').substring(0, 300)
-      innerHTML += '</div>'
+      innerHTML += '...</div>'
     }
     return innerHTML
   }
