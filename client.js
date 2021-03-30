@@ -33,8 +33,8 @@ function makeSearchResult (entries) {
   for (let entry of entries) {
     innerHTML += '<div class="search-result-entry">'
     const title = entry.children[0].textContent
-    const url = entry.children[1].textContent
-    const content = entry.children[2].textContent
+    const url = entry.children[2].textContent
+    const content = entry.children[3].textContent
     innerHTML += '<h2><a href="' + url + '">' + title + '</a></h2>'
     const thumbnail = /<img[^>]*>/.exec(content)
     if (thumbnail && thumbnail.length >= 1) {
