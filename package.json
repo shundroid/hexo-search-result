@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/shundroid/hexo-search-result/issues"
   },
-  "homepage": "https://github.com/shundroid/hexo-search-result#readme"
+  "homepage": "https://github.com/shundroid/hexo-search-result#readme",
+  "dependencies": {}
 }

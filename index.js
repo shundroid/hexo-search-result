@@ -4,7 +4,7 @@ function insertSearchResult (args) {
   return Promise.all([fs.readFile(path.join(__dirname, './client.js')),
     fs.readFile(path.join(__dirname, './style.css'))]).then(contents => {
     return '<div id="plugin-search-result"></div>' +
-      '<script>' + contents[0] + '</script>' +
+      '<script>(function() {' + contents[0] + '\ninit()})()</script>' +
       '<style>' + contents[1] + '</style>'
   })
 }
